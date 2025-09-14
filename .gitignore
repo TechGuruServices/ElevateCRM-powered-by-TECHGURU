@@ -1,0 +1,33 @@
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+backend/.env
+.env
+.env.*
+
+# Builds / packaging / backups
+packaging/dist/
+packaging/build/
+*.zip
+project-backup-*.tar.gz
+backup-created.txt
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Keep example env in repo
+!.env.example
