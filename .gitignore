@@ -31,3 +31,6 @@ Thumbs.db
 
 # Keep example env in repo
 !.env.example
+
+# local notes
+Real-time inventory tracking Keeps.txt
