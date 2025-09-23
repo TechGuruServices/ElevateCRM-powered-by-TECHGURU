@@ -11,7 +11,7 @@
   <img src="assets/elevatecrm-banner.png" alt="ElevateCRM banner" width="100%">
   <br>
   <picture>
-    <source srcset="assets/logo.webp" type="image/webp">
+    <source srcset="assets/logo.png" type="image/.png">
     <img src="assets/logo.png" alt="ElevateCRM Logo" width="220">
   </picture>
 </p>
