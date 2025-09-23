@@ -1,26 +1,26 @@
-<!-- Hero with primary logo (the star of the show) -->
-<div align="center">
-    <img src="/logo.png" alt="ElevateCRM Logo" width="220"/>
+<!-- Hero: banner + logo tight, centered, and GitHub-safe <p align="center">
+  <img src="assets/elevatecrm-banner.png" alt="ElevateCRM banner" width="100%">
+  <br>
+  <picture>
+    <source srcset="assets/logo.webp" type="image/webp">
+    <img src="assets/logo.png" alt="ElevateCRM Logo" width="220">
   </picture>
+</p>
+
+<h1 align="center">ElevateCRM + Inventory</h1>
+<p align="center">
+  <strong>Streamline. Automate. Elevate.</strong><br/>
+  Next-generation CRM & Inventory platform for teams that hate clunky software.
+</p>
 
 <p align="center">
-  <img src="assets/banner.svg" alt="ElevateCRM banner" width="100%">
+  <a href="#-overview">Overview</a> ·
+  <a href="#-features">Features</a> ·
+  <a href="#-tech-stack">Tech Stack</a> ·
+  <a href="#-quickstart">Quickstart</a> ·
+  <a href="#-desktop-app">Desktop</a> ·
+  <a href="#-screenshots">Screenshots</a>
 </p>
-  <p>
-    <strong>Streamline. Automate. Elevate.
-    
-    </strong><br/>
-    Next-generation CRM & Inventory platform for teams that hate clunky software.
-  </p>
-
-  <p>
-    <a href="#-overview">Overview</a> ·
-    <a href="#-features">Features</a> ·
-    <a href="#-tech-stack">Tech Stack</a> ·
-    <a href="#-quickstart">Quickstart</a> ·
-    <a href="#-desktop-app">Desktop</a> ·
-    <a href="#-screenshots">Screenshots</a>
-  </p>
 </div>
 
 ---
