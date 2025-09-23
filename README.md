@@ -1,7 +1,7 @@
 # 🚀 ElevateCRM Management System by TECHGURU
 
 <div align="center">
-  <img src="./elevate-logo.png" alt="elevete-logo" width="120" height="120">
+  <img src="./elevate-logo.png" alt="elevate-logo" width="120" height="120">
   
   **A Modern CRM + Inventory Platform**
   
