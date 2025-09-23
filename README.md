@@ -19,7 +19,7 @@
 </p>
 
 <div align="center">
-  <img src="assets/httplocalhost3000_nextstaticchunksmain-app.js?v=1758587381175%20line%201255%20%3E%20eval.png" alt="ElevateCRM Logo" width="200" />
+  <img src="assets/logo-elevatecrm.png" alt="ElevateCRM Logo" width="200" />
   <h1>ElevateCRM + Inventory</h1>
   <p><em>Powered by TechGuru</em></p>
   <p><strong>Streamline. Automate. Elevate.</strong></p>
