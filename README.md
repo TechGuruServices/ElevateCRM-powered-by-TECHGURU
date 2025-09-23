@@ -6,7 +6,7 @@
   </picture>
 
 <p align="center">
-  <img src="assets/elevatecrm-banner.png" alt="ElevateCRM banner" width="100%">
+  <img src="assets/banner.svg" alt="ElevateCRM banner" width="100%">
 </p>
 
   <p>
