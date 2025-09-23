@@ -11,8 +11,8 @@
 <!-- Hero with primary logo (the star of the show) -->
 <div align="center">
   <picture>
-    <source srcset="logo.webp" type="image/webp"/>
-    <img src="logo.png" alt="ElevateCRM Logo" width="220"/>
+    <source srcset="assets/logo.webp" type="image/webp"/>
+    <img src="assets/logo.png" alt="ElevateCRM Logo" width="220"/>
   </picture>
 
   <h1>ElevateCRM + Inventory</h1>
