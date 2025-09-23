@@ -1,42 +1,22 @@
-<!-- Dark glass banner with gradient edge; plays nice in GitHub light/dark -->
+<!-- Slim gradient banner + centered hero -->
 <p align="center">
-  <picture>
-    <!-- fallback SVG works in both modes -->
-    <img alt="ElevateCRM banner" src="data:image/svg+xml;utf8,
-      <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='160' viewBox='0 0 1200 160'>
-        <defs>
-          <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
-            <stop offset='0%' stop-color='%231FA3FF'/>
-            <stop offset='50%' stop-color='%235B5CFF'/>
-            <stop offset='100%' stop-color='%238A2BE2'/>
-          </linearGradient>
-          <linearGradient id='edge' x1='0' y1='0' x2='1' y2='0'>
-            <stop offset='0%' stop-color='white' stop-opacity='0.25'/>
-            <stop offset='100%' stop-color='white' stop-opacity='0'/>
-          </linearGradient>
-          <filter id='glass' x='-20%' y='-20%' width='140%' height='140%'>
-            <feGaussianBlur stdDeviation='8' result='b'/>
-            <feComposite in='SourceGraphic' in2='b' operator='over'/>
-          </filter>
-        </defs>
-        <rect width='1200' height='160' fill='%23121214'/>
-        <rect x='24' y='28' rx='16' width='1152' height='104' fill='url(%23g)' opacity='0.14'/>
-        <rect x='24' y='28' rx='16' width='1152' height='104' fill='%231C1F23' filter='url(%23glass)'/>
-        <rect x='24' y='28' rx='16' width='1152' height='104' fill='none' stroke='url(%23g)' stroke-opacity='0.7'/>
-        <rect x='24' y='28' rx='16' width='1152' height='104' fill='none' stroke='url(%23edge)' stroke-width='2'/>
-        <g font-family='Segoe UI, Roboto, Helvetica, Arial, sans-serif' fill='white' text-anchor='middle'>
-          <text x='600' y='88' font-size='28' font-weight='700'>ElevateCRM + Inventory</text>
-          <text x='600' y='116' font-size='14' fill='white' opacity='0.85'>Streamline. Automate. Elevate.</text>
-        </g>
-      </svg>" />
-  </picture>
+  <svg width="100%" height="92" viewBox="0 0 1200 92" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ElevateCRM">
+    <defs>
+      <linearGradient id="elevateA" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#1FA3FF"/>
+        <stop offset="50%" stop-color="#5B5CFF"/>
+        <stop offset="100%" stop-color="#8A2BE2"/>
+      </linearGradient>
+    </defs>
+    <rect width="1200" height="92" fill="url(#elevateA)"/>
+  </svg>
 </p>
 
 <div align="center">
   <img src="assets/logo-elevatecrm.png" alt="ElevateCRM Logo" width="200" />
   <h1>ElevateCRM + Inventory</h1>
   <p><em>Powered by TechGuru</em></p>
-  <p><strong>Next-gen CRM & Inventory for teams that hate clunky software.</strong></p>
+  <p><strong>Streamline. Automate. Elevate.</strong></p>
 
   <p>
     <a href="#-overview">Overview</a> ·
@@ -50,16 +30,16 @@
 ---
 
 ## ✨ Overview
-ElevateCRM blends **CRM**, **inventory**, and **automation** with a UI that doesn’t fight you.
+ElevateCRM unifies **customer management, inventory tracking, and automation** in a sleek, modular system.
 
 ---
 
 ## 🚀 Features
-- **CRM** — Pipelines, notes, tasks, comms timeline  
-- **Inventory** — Realtime stock, POs, barcode/QR scanning  
-- **Automation** — Celery + Redis workflows  
+- **Customer Management** — Pipelines, tasks, notes, activity timelines  
+- **Inventory Control** — Real-time stock, POs, barcode/QR capture  
+- **Automations** — Workflow engine with Celery + Redis  
 - **Analytics** — KPIs and dashboards  
-- **Desktop** — Electron builds for Win/macOS/Linux
+- **Cross-Platform** — Web app, desktop (Electron), mobile-friendly
 
 ---
 
@@ -69,7 +49,8 @@ ElevateCRM blends **CRM**, **inventory**, and **automation** with a UI that does
 | **Frontend** | Next.js 14, TypeScript, Tailwind CSS, shadcn/ui |
 | **Backend**  | FastAPI, SQLAlchemy 2.x, Redis, Celery |
 | **Database** | PostgreSQL (prod), SQLite (dev) |
-| **DevOps**   | Docker Compose, Alembic |
+| **Desktop**  | Electron (Win/macOS/Linux) |
+| **DevOps**   | Docker Compose, Alembic migrations |
 
 ---
 
@@ -78,3 +59,30 @@ ElevateCRM blends **CRM**, **inventory**, and **automation** with a UI that does
 ```bash
 git clone https://github.com/techguru/elevate-crm.git
 cd elevate-crm
+
+Backend
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+Frontend
+cd ../frontend
+npm install
+npm run dev
+
+
+Desktop
+cd ../desktop
+npm install
+npm run build && npm run dist
+
+
+📸 Screenshots
+<div align="center">
+  <img src="assets/screenshot-dashboard.png" alt="Dashboard Screenshot" width="720"/>
+</div>
+
+<div align="center">
+  <sub>MIT License © 2025 • Crafted by <strong>TechGuru</strong></sub>
+</div>
+```
