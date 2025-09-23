@@ -1,16 +1,4 @@
-<!--
-  ElevateCRM + Inventory · Modern README
-  Assets needed:
-  - assets/elevatecrm-banner.png   (banner PNG, ~1600×300)
-  - assets/logo.webp               (logo in WebP, optional)
-  - assets/logo.png                (logo PNG fallback)
--->
-
-<!-- Hero: banner + logo -->
-<p align="center">
-  <img src="assets/banner.svg" alt="ElevateCRM banner" width="100%">
-  <br>
-  <picture>
+ <picture>
     <source srcset="assets/logo.png" type="image/.png">
     <img src="assets/logo.png" alt="ElevateCRM Logo" width="220">
   </picture>
