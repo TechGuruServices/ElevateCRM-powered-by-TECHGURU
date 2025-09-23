@@ -1,16 +1,15 @@
 <!-- Hero with primary logo (the star of the show) -->
 <div align="center">
-  <picture>
-    <source srcset="/logo.webp" type="image/webp"/>
     <img src="/logo.png" alt="ElevateCRM Logo" width="220"/>
   </picture>
 
 <p align="center">
   <img src="assets/banner.svg" alt="ElevateCRM banner" width="100%">
 </p>
-
   <p>
-    <strong>Streamline. Automate. Elevate.</strong><br/>
+    <strong>Streamline. Automate. Elevate.
+    
+    </strong><br/>
     Next-generation CRM & Inventory platform for teams that hate clunky software.
   </p>
 
