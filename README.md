@@ -1,4 +1,13 @@
-<!-- Hero: banner + logo tight, centered, and GitHub-safe <p align="center">
+<!--
+  ElevateCRM + Inventory · Modern README
+  Assets needed:
+  - assets/elevatecrm-banner.png   (banner PNG, ~1600×300)
+  - assets/logo.webp               (logo in WebP, optional)
+  - assets/logo.png                (logo PNG fallback)
+-->
+
+<!-- Hero: banner + logo -->
+<p align="center">
   <img src="assets/elevatecrm-banner.png" alt="ElevateCRM banner" width="100%">
   <br>
   <picture>
@@ -21,12 +30,11 @@
   <a href="#-desktop-app">Desktop</a> ·
   <a href="#-screenshots">Screenshots</a>
 </p>
-</div>
 
 ---
 
 ## ✨ Overview
-ElevateCRM unifies **customer management**, **inventory tracking**, and **automation** in one clean, modular system.
+ElevateCRM unifies **customer management**, **inventory tracking**, and **automation** in one clean, modular system.  
 Opinionated where it helps, flexible where it counts, and fast enough to feel invisible.
 
 ---
@@ -42,7 +50,7 @@ Opinionated where it helps, flexible where it counts, and fast enough to feel in
 
 ## 🛠 Tech Stack
 | Layer        | Tools |
-|-------------|-------|
+|--------------|-------|
 | **Frontend** | Next.js 14, TypeScript, Tailwind CSS, shadcn/ui |
 | **Backend**  | FastAPI, SQLAlchemy 2.x, Pydantic |
 | **Infra**    | PostgreSQL (prod), SQLite (dev), Redis |
@@ -66,9 +74,9 @@ cd elevate-crm
 cp backend/.env.example backend/.env
 cp frontend/.env.example frontend/.env
 
-# 3) Up
+# 3) Build + Run
 docker compose up -d --build
 
-# 4) Open
+# 4) Access
 # Frontend: http://localhost:3000
 # API docs: http://localhost:8000/docs
