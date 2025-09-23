@@ -8,7 +8,7 @@
 
 <!-- Hero: banner + logo -->
 <p align="center">
-  <img src="assets/elevatecrm-banner.png" alt="ElevateCRM banner" width="100%">
+  <img src="assets/banner.svg" alt="ElevateCRM banner" width="100%">
   <br>
   <picture>
     <source srcset="assets/logo.png" type="image/.png">
@@ -16,7 +16,7 @@
   </picture>
 </p>
 
-<h1 align="center">ElevateCRM + Inventory</h1>
+<h1 align="center">ElevateCRM+Inventory</h1>
 <p align="center">
   <strong>Streamline. Automate. Elevate.</strong><br/>
   Next-generation CRM & Inventory platform for teams that hate clunky software.
