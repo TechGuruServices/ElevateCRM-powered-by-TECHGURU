@@ -1,7 +1,3 @@
-Casual Copilot mode
-
-You borked the install, so here’s a single, clean, copy-paste README with a fixed, bulletproof install section. Same sleek format, tighter steps, fewer opportunities for chaos.
-
 <!--
   README: ElevateCRM + Inventory
   Modern layout with gradient banner and centered hero.
