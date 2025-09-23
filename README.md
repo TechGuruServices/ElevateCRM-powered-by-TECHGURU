@@ -1,9 +1,3 @@
-<!--
-  README: ElevateCRM + Inventory
-  Modern layout with gradient banner and centered hero.
-  Place your logo at: assets/logo-elevatecrm.png (transparent PNG, ~200px wide)
--->
-
 <!-- Slim gradient banner -->
 <p align="center">
   <svg width="100%" height="92" viewBox="0 0 1200 92" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ElevateCRM">
@@ -19,7 +13,7 @@
 </p>
 
 <div align="center">
-  <img src="assets/logo-elevatecrm.png" alt="ElevateCRM Logo" width="200" />
+  <img src="assets/httplocalhost3000_nextstaticchunksmain-app.js?v=1758587381175%20line%201255%20%3E%20eval.png" alt="" width="200" />
   <h1>ElevateCRM + Inventory</h1>
   <p><em>Powered by TechGuru</em></p>
   <p><strong>Streamline. Automate. Elevate.</strong></p>
