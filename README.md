@@ -178,6 +178,3 @@ Coming soon…
   <sub>MIT License © 2025 • Crafted by <strong>TechGuru</strong></sub>
 </div>
 ```
-
-
-No more Franken-install steps. This version is clean, consistent, and won’t make future you hate past you.
