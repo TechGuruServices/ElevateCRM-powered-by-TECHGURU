@@ -1,13 +1,3 @@
-<!--
-  ElevateCRM + Inventory · Modern README
-  Tip: put your logo at assets/logo.webp (or logo.png) around 200–240px wide, transparent background.
--->
-
-<!-- Banner (safe external file recommended) -->
-<p align="center">
-  <img src="assets/banner.svg" alt="ElevateCRM banner" width="100%"/>
-</p>
-
 <!-- Hero with primary logo (the star of the show) -->
 <div align="center">
   <picture>
@@ -15,7 +5,10 @@
     <img src="/logo.png" alt="ElevateCRM Logo" width="220"/>
   </picture>
 
-  <h1>ElevateCRM + Inventory</h1>
+<p align="center">
+  <img src="assets/elevatecrm-banner.png" alt="ElevateCRM banner" width="100%">
+</p>
+
   <p>
     <strong>Streamline. Automate. Elevate.</strong><br/>
     Next-generation CRM & Inventory platform for teams that hate clunky software.
