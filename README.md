@@ -4,7 +4,8 @@
   </picture>
 </p>
 
-<h1 align="center">Automate The Boring. Deliver The BRILLIANT!💡</h1>
+<h1 align="center">Elevate Your Business Management
+Unified CRM and inventory platform designed for small-to-medium businesses.</h1>
 <p align="center">
   <strong>Streamline. Automate. Elevate.</strong><br/>
   Next-generation CRM & Inventory platform for teams that hate clunky software.
