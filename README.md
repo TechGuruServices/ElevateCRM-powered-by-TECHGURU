@@ -1,7 +1,7 @@
  <picture>
-    <source srcset="assets/logo.png" type="image/.png">
+  align="center">  <source srcset="assets/logo.png" type="image/.png">
     <img src="assets/logo.png" alt="ElevateCRM Logo" width="220">
-  </picture>
+  </picture>align="center">
 </p>
 
 <h1 align="center">ElevateCRM+Inventory</h1>
