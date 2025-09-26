@@ -1,10 +1,10 @@
  <picture>
-  align="center">  <source srcset="assets/logo.png" type="image/.png">
+  <source srcset="assets/logo.png" type="image/.png">💡
     <img src="assets/logo.png" alt="ElevateCRM Logo" width="220">
-  </picture>align="center">
+  </picture>
 </p>
 
-<h1 align="center">ElevateCRM+Inventory</h1>
+<h1 align="center">Automate The Boring. Deliver The BRILLIANT!💡</h1>
 <p align="center">
   <strong>Streamline. Automate. Elevate.</strong><br/>
   Next-generation CRM & Inventory platform for teams that hate clunky software.
